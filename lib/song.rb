@@ -25,7 +25,7 @@ class Song
   end
 
   def self.genre_count
-    histogram = hash.new
+    histogram = {}
     @@genres.collect do |genre|
       histogram[genre] += 1
     end
