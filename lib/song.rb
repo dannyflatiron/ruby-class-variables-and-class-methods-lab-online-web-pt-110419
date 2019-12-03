@@ -30,7 +30,7 @@ class Song
       if histogram[genre]
         histogram[genre] += 1
       else
-        histogram[genre]
+        histogram[genre] = 1
       end
     end
     histogram
