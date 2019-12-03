@@ -1,3 +1,4 @@
+require 'pry'
 class Song
   attr_accessor :name, :artist, :genre
 
@@ -21,6 +22,11 @@ class Song
 
   def self.artists
     @@artists.uniq!
+  end
+
+  def self.genre_count
+    @@genres.collect do |
+      binding.pry
   end
 
 
