@@ -29,6 +29,7 @@ class Song
     @@genres.collect do |genre|
       histogram[genre]
     end
+    histogram
       # binding.pry
   end
 
