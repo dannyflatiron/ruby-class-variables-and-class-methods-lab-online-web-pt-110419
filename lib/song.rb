@@ -27,7 +27,7 @@ class Song
   def self.genre_count
     histogram = {}
     @@genres.each do |genre|
-      histogram[genre]
+      histogram["genre"]
     end
 
       # binding.pry
